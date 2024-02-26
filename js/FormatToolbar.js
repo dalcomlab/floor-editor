@@ -1,9 +1,6 @@
 'use strict'
 
-import FormatToolbarItem from './FormatToolbarItem.js';
-import SpinButton from './SpinButton.js'
-
-export default class FormatToolbar {
+class FormatToolbar {
 
     constructor(domNode
                 , onChangedDrawMode=function (actionType, actionValue) {}

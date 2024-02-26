@@ -1,6 +1,6 @@
 'use strict';
 
-export default class SpinButton {
+class SpinButton {
 
     MIN = 50;
     MAX = 400;

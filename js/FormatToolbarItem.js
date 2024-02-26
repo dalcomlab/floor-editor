@@ -1,6 +1,6 @@
 'use strict';
 
-export default class FormatToolbarItem {
+class FormatToolbarItem {
 
     constructor(domNode, toolbar, onChangedDrawMode = function (actionType, actionValue) {}) {
 
