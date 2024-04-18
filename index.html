@@ -26,112 +26,112 @@
 
     <h1>PLACE-IN Plan Drawing</h1>
 
-    <div id="ex1">
-        <div class="format" role="toolbar" aria-label="Text Formatting">
-            <span style="margin-right: 10px;"></span>
-            <div class="group">
-                <button type="button" action-type="undo-command" action-value="undo"
-                        class="item popup" tabindex="-1">
-                    <img src="./images/icons/undo.svg" alt="Undo command" class="icon"/>
-                    <span class="popup-label">Undo</span>
-                </button>
-                <button type="button" action-type="undo-command" action-value="redo"
-                        class="item popup" tabindex="-1">
-                    <img src="./images/icons/redo.svg" alt="Redo undo command" class="icon"/>
-                    <span class="popup-label">Redo</span>
-                </button>
-            </div>
-            <span style="margin-right: 10px;"></span>
-            <div class="group" role="radiogroup" aria-label="Text Alignment">
-                <button type="button" role="radio" action-type="draw-mode" action-value="select-item"
-                        class="item popup" aria-checked="true" tabindex="-1">
-                    <img src="./images/icons/sel_object.svg" alt="select draw item" class="icon"/>
-                    <span class="popup-label">Select draw item</span>
-                </button>
+<!--    <div id="ex1">-->
+<!--        <div class="format" role="toolbar" aria-label="Text Formatting">-->
+<!--            <span style="margin-right: 10px;"></span>-->
+<!--            <div class="group">-->
+<!--                <button type="button" action-type="undo-command" action-value="undo"-->
+<!--                        class="item popup" tabindex="-1">-->
+<!--                    <img src="./images/icons/undo.svg" alt="Undo command" class="icon"/>-->
+<!--                    <span class="popup-label">Undo</span>-->
+<!--                </button>-->
+<!--                <button type="button" action-type="undo-command" action-value="redo"-->
+<!--                        class="item popup" tabindex="-1">-->
+<!--                    <img src="./images/icons/redo.svg" alt="Redo undo command" class="icon"/>-->
+<!--                    <span class="popup-label">Redo</span>-->
+<!--                </button>-->
+<!--            </div>-->
+<!--            <span style="margin-right: 10px;"></span>-->
+<!--            <div class="group" role="radiogroup" aria-label="Text Alignment">-->
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="select-item"-->
+<!--                        class="item popup" aria-checked="true" tabindex="-1">-->
+<!--                    <img src="./images/icons/sel_object.svg" alt="select draw item" class="icon"/>-->
+<!--                    <span class="popup-label">Select draw item</span>-->
+<!--                </button>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="create-wall"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/add_wall.svg" alt="create wall" class="icon"/>
-                    <span class="popup-label">Create wall</span>
-                </button>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-wall"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/add_wall.svg" alt="create wall" class="icon"/>-->
+<!--                    <span class="popup-label">Create wall</span>-->
+<!--                </button>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="create-rect-wall"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/add_rect_wall.svg" alt="create rect wall" class="icon"/>
-                    <span class="popup-label">Create rect wall</span>
-                </button>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-rect-wall"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/add_rect_wall.svg" alt="create rect wall" class="icon"/>-->
+<!--                    <span class="popup-label">Create rect wall</span>-->
+<!--                </button>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="create-rect-wall-clear"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/del_in_space.svg" alt="create rect wall clear" class="icon"/>
-                    <span class="popup-label">Create rect wall while cleaning internal</span>
-                </button>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-rect-wall-clear"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/del_in_space.svg" alt="create rect wall clear" class="icon"/>-->
+<!--                    <span class="popup-label">Create rect wall while cleaning internal</span>-->
+<!--                </button>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="create-window"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/add_window.svg" alt="create window" class="icon"/>
-                    <span class="popup-label">Create window</span>
-                </button>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-window"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/add_window.svg" alt="create window" class="icon"/>-->
+<!--                    <span class="popup-label">Create window</span>-->
+<!--                </button>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="create-door"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/add_door.svg" alt="create door" class="icon"/>
-                    <span class="popup-label">Create door</span>
-                </button>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-door"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/add_door.svg" alt="create door" class="icon"/>-->
+<!--                    <span class="popup-label">Create door</span>-->
+<!--                </button>-->
 
-                <span style="margin-right: 10px;"></span>
+<!--                <span style="margin-right: 10px;"></span>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="split-wall"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/div_wall.svg" alt="split all" class="icon"/>
-                    <span class="popup-label">Split wall</span>
-                </button>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="split-wall"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/div_wall.svg" alt="split all" class="icon"/>-->
+<!--                    <span class="popup-label">Split wall</span>-->
+<!--                </button>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="delete-object"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/del_object.svg" alt="delete object" class="icon"/>
-                    <span class="popup-label">Erase selected object</span>
-                </button>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="delete-object"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/del_object.svg" alt="delete object" class="icon"/>-->
+<!--                    <span class="popup-label">Erase selected object</span>-->
+<!--                </button>-->
 
-                <button type="button" role="radio" action-type="draw-mode" action-value="clear-all"
-                        class="item popup" aria-checked="false" tabindex="-1">
-                    <img src="./images/icons/del_all_plan.svg" alt="clear all" class="icon"/>
-                    <span class="popup-label">Clear all objects</span>
-                </button>
-            </div>
+<!--                <button type="button" role="radio" action-type="draw-mode" action-value="clear-all"-->
+<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
+<!--                    <img src="./images/icons/del_all_plan.svg" alt="clear all" class="icon"/>-->
+<!--                    <span class="popup-label">Clear all objects</span>-->
+<!--                </button>-->
+<!--            </div>-->
 
-            <div class="group">
-                <button type="button" action-type="ai-interface" action-value="request-review-drawing"
-                        class="item popup" tabindex="-1">
-                    <img src="./images/icons/inspection_plan.svg" alt="Request review" class="icon"/>
-                    <span class="popup-label">Request review drawing</span>
-                </button>
-            </div>
-            <span style="margin-right: 10px;"></span>
-            <div class="group">
-                <div action-type="changeZoomRate" action-value="changeZoomRate" class="item spinbutton"
-                     role="spinbutton" tabindex="-1" aria-valuenow="100"
-                     aria-valuetext="100%" aria-valuemin="50" aria-valuemax="400" aria-label="Design scale">
-                    <span class="value">100%</span>
-                    <span class="increase">
-                        <img src="./images/icons/zoom_in.svg" alt="Zoom In" class="icon"/>
-                    </span>
-                    <span class="decrease">
-                        <img src="./images/icons/zoom_out.svg" alt="Zoom Out" class="icon"/>
-                </span>
-                </div>
-            </div>
+<!--            <div class="group">-->
+<!--                <button type="button" action-type="ai-interface" action-value="request-review-drawing"-->
+<!--                        class="item popup" tabindex="-1">-->
+<!--                    <img src="./images/icons/inspection_plan.svg" alt="Request review" class="icon"/>-->
+<!--                    <span class="popup-label">Request review drawing</span>-->
+<!--                </button>-->
+<!--            </div>-->
+<!--            <span style="margin-right: 10px;"></span>-->
+<!--            <div class="group">-->
+<!--                <div action-type="changeZoomRate" action-value="changeZoomRate" class="item spinbutton"-->
+<!--                     role="spinbutton" tabindex="-1" aria-valuenow="100"-->
+<!--                     aria-valuetext="100%" aria-valuemin="50" aria-valuemax="400" aria-label="Design scale">-->
+<!--                    <span class="value">100%</span>-->
+<!--                    <span class="increase">-->
+<!--                        <img src="./images/icons/zoom_in.svg" alt="Zoom In" class="icon"/>-->
+<!--                    </span>-->
+<!--                    <span class="decrease">-->
+<!--                        <img src="./images/icons/zoom_out.svg" alt="Zoom Out" class="icon"/>-->
+<!--                </span>-->
+<!--                </div>-->
+<!--            </div>-->
 
-            <div class="group">
-                <button type="button" action-type="ai-interface" action-value="redirect-help"
-                        class="item popup" tabindex="-1">
-                    <img src="./images/icons/help.svg" alt="Help page" class="icon"/>
-                    <span class="popup-label">Help</span>
-                </button>
-            </div>
+<!--            <div class="group">-->
+<!--                <button type="button" action-type="ai-interface" action-value="redirect-help"-->
+<!--                        class="item popup" tabindex="-1">-->
+<!--                    <img src="./images/icons/help.svg" alt="Help page" class="icon"/>-->
+<!--                    <span class="popup-label">Help</span>-->
+<!--                </button>-->
+<!--            </div>-->
 
-        </div>
-    </div>
+<!--        </div>-->
+<!--    </div>-->
 
     <div id="floor-editor"></div>
     <br>
@@ -173,7 +173,7 @@
             try {
                 const data = JSON.parse(textarea.value);
                 editor.tools.clear();
-                editor.load(data, theme);
+                editor.load(data, 1, theme);
             } catch (error) {
                 console.error('JSON 파싱 오류:', error);
             }
@@ -269,7 +269,15 @@
 </script>
 
 <textarea id="data" rows="50" cols="50" style="display: none;">
- [
+{
+    "options": {
+        "width": 210,
+        "height": 220
+    },
+    "floors": [
+        {
+            "floor": 1,
+            "datas": [
     {
         "type": "STR",
         "categories": [
@@ -2740,6 +2748,847 @@
         ]
     }
 ]
+        },
+        {
+            "floor": 2,
+            "datas": [
+                {
+                    "type": "STR",
+                    "categories": [
+                        {
+                            "category": 0,
+                            "objects": [
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            151.9,
+                                            303.3208831973161
+                                        ],
+                                        [
+                                            151.9,
+                                            342.1915919060378
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            151.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            342.1915919060378
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            160.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            375.92653654101144
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            160.9,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            375.92653654101144
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            238.71095349524862,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            340.2309118044245
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            238.71095349524862,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            340.2309118044245
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            300.0,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            300.0,
+                                            161.9
+                                        ],
+                                        [
+                                            292.26490663455024,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            292.26490663455024,
+                                            161.9
+                                        ],
+                                        [
+                                            292.1,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            292.1,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            245.9,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            249.46289371798383
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            245.9,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            249.46289371798383
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            146.71250934020617,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            280.03143041682733
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            146.71250934020617,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            280.03143041682733
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            142.12302809173798,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            305.76512617438163
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            142.12302809173798,
+                                            305.76512617438163
+                                        ],
+                                        [
+                                            151.9,
+                                            303.3208831973161
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                }
+                            ]
+                        },
+                        {
+                            "category": 1,
+                            "objects": []
+                        },
+                        {
+                            "category": 2,
+                            "objects": []
+                        },
+                        {
+                            "category": 3,
+                            "objects": []
+                        }
+                    ]
+                },
+                {
+                    "type": "SPA",
+                    "categories": [
+                        {
+                            "category": 0,
+                            "objects": []
+                        },
+                        {
+                            "category": 1,
+                            "objects": []
+                        },
+                        {
+                            "category": 2,
+                            "objects": []
+                        },
+                        {
+                            "category": 3,
+                            "objects": []
+                        },
+                        {
+                            "category": 4,
+                            "objects": []
+                        },
+                        {
+                            "category": 5,
+                            "objects": []
+                        },
+                        {
+                            "category": 6,
+                            "objects": []
+                        },
+                        {
+                            "category": 7,
+                            "objects": []
+                        },
+                        {
+                            "category": 8,
+                            "objects": []
+                        },
+                        {
+                            "category": 9,
+                            "objects": []
+                        },
+                        {
+                            "category": 10,
+                            "objects": []
+                        },
+                        {
+                            "category": 11,
+                            "objects": []
+                        },
+                        {
+                            "category": 12,
+                            "objects": [
+                                {
+                                    "type": "Polygon",
+                                    "data": [
+                                        [
+                                            151.9,
+                                            303.3208831973161
+                                        ],
+                                        [
+                                            151.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            161.9
+                                        ],
+                                        [
+                                            292.26490663455024,
+                                            161.9
+                                        ],
+                                        [
+                                            292.1,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            305.76512617438163
+                                        ]
+                                    ],
+                                    "radius": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": 13,
+                            "objects": []
+                        },
+                        {
+                            "category": 14,
+                            "objects": []
+                        },
+                        {
+                            "category": 15,
+                            "objects": []
+                        },
+                        {
+                            "category": 16,
+                            "objects": []
+                        },
+                        {
+                            "category": 17,
+                            "objects": []
+                        },
+                        {
+                            "category": 18,
+                            "objects": []
+                        },
+                        {
+                            "category": 19,
+                            "objects": []
+                        },
+                        {
+                            "category": 20,
+                            "objects": []
+                        },
+                        {
+                            "category": 21,
+                            "objects": []
+                        },
+                        {
+                            "category": 22,
+                            "objects": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "floor": 3,
+            "datas": [
+                {
+                    "type": "STR",
+                    "categories": [
+                        {
+                            "category": 0,
+                            "objects": [
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            151.9,
+                                            303.3208831973161
+                                        ],
+                                        [
+                                            151.9,
+                                            342.1915919060378
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            151.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            342.1915919060378
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            160.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            375.92653654101144
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            160.9,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            375.92653654101144
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            238.71095349524862,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            340.2309118044245
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            238.71095349524862,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            340.2309118044245
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            300.0,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            300.0,
+                                            161.9
+                                        ],
+                                        [
+                                            292.26490663455024,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            292.26490663455024,
+                                            161.9
+                                        ],
+                                        [
+                                            292.1,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            292.1,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            161.9
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            245.9,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            249.46289371798383
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            245.9,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            249.46289371798383
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            146.71250934020617,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            280.03143041682733
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            146.71250934020617,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            280.03143041682733
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            142.12302809173798,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            305.76512617438163
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                },
+                                {
+                                    "type": "line",
+                                    "data": [
+                                        [
+                                            142.12302809173798,
+                                            305.76512617438163
+                                        ],
+                                        [
+                                            151.9,
+                                            303.3208831973161
+                                        ]
+                                    ],
+                                    "radius": 4.5
+                                }
+                            ]
+                        },
+                        {
+                            "category": 1,
+                            "objects": []
+                        },
+                        {
+                            "category": 2,
+                            "objects": []
+                        },
+                        {
+                            "category": 3,
+                            "objects": []
+                        }
+                    ]
+                },
+                {
+                    "type": "SPA",
+                    "categories": [
+                        {
+                            "category": 0,
+                            "objects": []
+                        },
+                        {
+                            "category": 1,
+                            "objects": []
+                        },
+                        {
+                            "category": 2,
+                            "objects": []
+                        },
+                        {
+                            "category": 3,
+                            "objects": []
+                        },
+                        {
+                            "category": 4,
+                            "objects": []
+                        },
+                        {
+                            "category": 5,
+                            "objects": []
+                        },
+                        {
+                            "category": 6,
+                            "objects": []
+                        },
+                        {
+                            "category": 7,
+                            "objects": []
+                        },
+                        {
+                            "category": 8,
+                            "objects": []
+                        },
+                        {
+                            "category": 9,
+                            "objects": []
+                        },
+                        {
+                            "category": 10,
+                            "objects": []
+                        },
+                        {
+                            "category": 11,
+                            "objects": []
+                        },
+                        {
+                            "category": 12,
+                            "objects": [
+                                {
+                                    "type": "Polygon",
+                                    "data": [
+                                        [
+                                            151.9,
+                                            303.3208831973161
+                                        ],
+                                        [
+                                            151.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            342.1915919060378
+                                        ],
+                                        [
+                                            160.9,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            375.92653654101144
+                                        ],
+                                        [
+                                            238.71095349524862,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            340.2309118044245
+                                        ],
+                                        [
+                                            300.0,
+                                            161.9
+                                        ],
+                                        [
+                                            292.26490663455024,
+                                            161.9
+                                        ],
+                                        [
+                                            292.1,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            161.9
+                                        ],
+                                        [
+                                            245.9,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            249.46289371798383
+                                        ],
+                                        [
+                                            146.71250934020617,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            280.03143041682733
+                                        ],
+                                        [
+                                            142.12302809173798,
+                                            305.76512617438163
+                                        ]
+                                    ],
+                                    "radius": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": 13,
+                            "objects": []
+                        },
+                        {
+                            "category": 14,
+                            "objects": []
+                        },
+                        {
+                            "category": 15,
+                            "objects": []
+                        },
+                        {
+                            "category": 16,
+                            "objects": []
+                        },
+                        {
+                            "category": 17,
+                            "objects": []
+                        },
+                        {
+                            "category": 18,
+                            "objects": []
+                        },
+                        {
+                            "category": 19,
+                            "objects": []
+                        },
+                        {
+                            "category": 20,
+                            "objects": []
+                        },
+                        {
+                            "category": 21,
+                            "objects": []
+                        },
+                        {
+                            "category": 22,
+                            "objects": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
 </textarea>
 </body>
 </html>
