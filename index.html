@@ -26,131 +26,22 @@
 
     <h1>PLACE-IN Plan Drawing</h1>
 
-<!--    <div id="ex1">-->
-<!--        <div class="format" role="toolbar" aria-label="Text Formatting">-->
-<!--            <span style="margin-right: 10px;"></span>-->
-<!--            <div class="group">-->
-<!--                <button type="button" action-type="undo-command" action-value="undo"-->
-<!--                        class="item popup" tabindex="-1">-->
-<!--                    <img src="./images/icons/undo.svg" alt="Undo command" class="icon"/>-->
-<!--                    <span class="popup-label">Undo</span>-->
-<!--                </button>-->
-<!--                <button type="button" action-type="undo-command" action-value="redo"-->
-<!--                        class="item popup" tabindex="-1">-->
-<!--                    <img src="./images/icons/redo.svg" alt="Redo undo command" class="icon"/>-->
-<!--                    <span class="popup-label">Redo</span>-->
-<!--                </button>-->
-<!--            </div>-->
-<!--            <span style="margin-right: 10px;"></span>-->
-<!--            <div class="group" role="radiogroup" aria-label="Text Alignment">-->
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="select-item"-->
-<!--                        class="item popup" aria-checked="true" tabindex="-1">-->
-<!--                    <img src="./images/icons/sel_object.svg" alt="select draw item" class="icon"/>-->
-<!--                    <span class="popup-label">Select draw item</span>-->
-<!--                </button>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-wall"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/add_wall.svg" alt="create wall" class="icon"/>-->
-<!--                    <span class="popup-label">Create wall</span>-->
-<!--                </button>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-rect-wall"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/add_rect_wall.svg" alt="create rect wall" class="icon"/>-->
-<!--                    <span class="popup-label">Create rect wall</span>-->
-<!--                </button>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-rect-wall-clear"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/del_in_space.svg" alt="create rect wall clear" class="icon"/>-->
-<!--                    <span class="popup-label">Create rect wall while cleaning internal</span>-->
-<!--                </button>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-window"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/add_window.svg" alt="create window" class="icon"/>-->
-<!--                    <span class="popup-label">Create window</span>-->
-<!--                </button>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="create-door"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/add_door.svg" alt="create door" class="icon"/>-->
-<!--                    <span class="popup-label">Create door</span>-->
-<!--                </button>-->
-
-<!--                <span style="margin-right: 10px;"></span>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="split-wall"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/div_wall.svg" alt="split all" class="icon"/>-->
-<!--                    <span class="popup-label">Split wall</span>-->
-<!--                </button>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="delete-object"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/del_object.svg" alt="delete object" class="icon"/>-->
-<!--                    <span class="popup-label">Erase selected object</span>-->
-<!--                </button>-->
-
-<!--                <button type="button" role="radio" action-type="draw-mode" action-value="clear-all"-->
-<!--                        class="item popup" aria-checked="false" tabindex="-1">-->
-<!--                    <img src="./images/icons/del_all_plan.svg" alt="clear all" class="icon"/>-->
-<!--                    <span class="popup-label">Clear all objects</span>-->
-<!--                </button>-->
-<!--            </div>-->
-
-<!--            <div class="group">-->
-<!--                <button type="button" action-type="ai-interface" action-value="request-review-drawing"-->
-<!--                        class="item popup" tabindex="-1">-->
-<!--                    <img src="./images/icons/inspection_plan.svg" alt="Request review" class="icon"/>-->
-<!--                    <span class="popup-label">Request review drawing</span>-->
-<!--                </button>-->
-<!--            </div>-->
-<!--            <span style="margin-right: 10px;"></span>-->
-<!--            <div class="group">-->
-<!--                <div action-type="changeZoomRate" action-value="changeZoomRate" class="item spinbutton"-->
-<!--                     role="spinbutton" tabindex="-1" aria-valuenow="100"-->
-<!--                     aria-valuetext="100%" aria-valuemin="50" aria-valuemax="400" aria-label="Design scale">-->
-<!--                    <span class="value">100%</span>-->
-<!--                    <span class="increase">-->
-<!--                        <img src="./images/icons/zoom_in.svg" alt="Zoom In" class="icon"/>-->
-<!--                    </span>-->
-<!--                    <span class="decrease">-->
-<!--                        <img src="./images/icons/zoom_out.svg" alt="Zoom Out" class="icon"/>-->
-<!--                </span>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--            <div class="group">-->
-<!--                <button type="button" action-type="ai-interface" action-value="redirect-help"-->
-<!--                        class="item popup" tabindex="-1">-->
-<!--                    <img src="./images/icons/help.svg" alt="Help page" class="icon"/>-->
-<!--                    <span class="popup-label">Help</span>-->
-<!--                </button>-->
-<!--            </div>-->
-
-<!--        </div>-->
-<!--    </div>-->
-
     <div id="floor-editor"></div>
     <br>
     <button type="button" id="load-theme-1">load-theme-1</button>
 
 </div>
 <script src="./js/bundle.version.2.js"></script>
-<script src="./js/FormatToolbar.js"></script>
-<script src="./js/FormatToolbarItem.js"></script>
-<script src="./js/SpinButton.js"></script>
 <script type="module">
-
-    //import FormatToolbar from "./js/FormatToolbar.js";
 
     const editor = new PlaceIn.Editor();
     window.onload = () => {
         editor.edit('#floor-editor', {
             width: 1510,
             height: 810,
+            text : {
+                size : 15,
+            },
             toolbar : {
                 thick : [0, 1, 5, 10],
                 color : [
@@ -166,7 +57,6 @@
                 ]
             },
         });
-        initializeToolbar();
 
         const loadData = (theme) => {
             const textarea = document.getElementById('data');
@@ -202,68 +92,6 @@
             });
         });
 
-    }
-
-    function initializeToolbar() {
-        let toolbars = document.querySelectorAll('[role="toolbar"].format');
-        for (let element of toolbars) {
-            let toolbar = new FormatToolbar(element, onChangedDrawMode, onZoomInOut);
-            toolbar.init();
-        }
-    }
-
-    function onChangedDrawMode(actionType, actionValue) {
-        switch (actionValue) {
-            case "undo":
-                alert('redo... coming soon');
-                break;
-            case "redo":
-                alert('redo... coming soon');
-                break;
-            case "select-item" :
-                editor.tools.select();
-                break;
-            case "create-wall" :
-                editor.tools.createWall();
-                break;
-            case "create-rect-wall" :
-                editor.tools.createRoom(null);
-                break;
-            case "create-rect-wall-clear" :
-                editor.tools.createRectWall(true);
-                break;
-            case "create-window" :
-                editor.tools.createWindow();
-                break;
-            case "create-door" :
-                editor.tools.createDoor();
-                break;
-            case "split-wall" :
-                editor.tools.splitWall();
-                break;
-            case "delete-object" :
-                editor.tools.eraseObject();
-                break;
-            case "clear-all" :
-                editor.tools.clear();
-                break;
-            case "request-review-drawing" :
-                alert('Request review drawing ... coming soon.');
-                break;
-            case "redirect-help" :
-                window.location.href = "./help.html";
-                break;
-            default:
-                break;
-        }
-    }
-
-    function onZoomInOut(isZoomIn) {
-        if (isZoomIn) {
-            editor.tools.zoomIn();
-        } else {
-            editor.tools.zoomOut();
-        }
     }
 
 </script>
